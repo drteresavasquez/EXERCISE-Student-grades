@@ -16,25 +16,6 @@ console.log("grades.js");
 // What is the lowest grade?
 // What is the highest grade?
 
-
-//SO.....what I want to do is have the iteration go through each grade and pull out grades that have the grades assigned above and add them to a new array that coincides with its letter grade. I need to pull each grade from the scores array and assign it to the lettered array.
-
-
-// $scope.tasks = [
-//      {title: "Do the dishes"},
-//      {title: "Walk the dog"},
-// ];
-// $scope.tasksDone = [];
-// $scope.addToTasksDone = function(specificValue) {
-//                            // IM FAILNG HERE};
-//      tasks.forEach( (object) => {
-//           if ( object[title] === specificValue ) {
-//                 $scope.tasksDone.push(object);
-//           }
-//      });
-// }
-
-
 let scores = [82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87];
 let scores2 = [80, 79, 100, 53, 9, 69, 72, 99, 80, 34, 50, 87];
 // console.log(scores);
