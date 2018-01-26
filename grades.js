@@ -31,17 +31,17 @@ function giveGrades (grade){
 	for (let i = 0; i < scores.length; i++){
 		let currentGrade = grade[i];
 		// console.log(currentGrade);
-			if (currentGrade <= 60 ){
+		if (currentGrade <= 60 ){
 			F.push(currentGrade);
-			}else if(currentGrade <= 70){
+		}else if(currentGrade <= 70){
 			D.push(currentGrade);
-			}else if(currentGrade <= 80){
+		}else if(currentGrade <= 80){
 			C.push(currentGrade);
-			}else if(currentGrade <= 90){
+		}else if(currentGrade <= 90){
 			B.push(currentGrade);
-			}else {
+		}else {
 			A.push(currentGrade);
-			}
+		}
 
 	}
 };
@@ -64,32 +64,3 @@ console.log(`There are ${gradeB} B's in the list`);
 console.log(`There are ${gradeA} A's in the list`);
 console.log(`${topScore} is the highest grade in the class.`);
 console.log(`${bottomScore} is the lowest grade in the class.`);
-
-
-
-// 	for (let i = 0; i < grade.length; i++){
-// 		let currentGrade = grade[i];
-// 		// console.log(currentGrade);
-// 			if (currentGrade <= 60 ){
-// 			F.push(currentGrade);
-			
-// 			}else if(currentGrade <= 70  && currentGrade >= 61){
-// 			D.push(currentGrade);
-			
-// 		}else if(currentGrade <= 80  && currentGrade >= 71){
-// 		C.push(currentGrade);
-			
-		
-// 	}else if(currentGrade <= 90  && currentGrade >= 81){
-// 		B.push(currentGrade);
-			
-// 	}else {
-// 		A.push(currentGrade);
-			
-		
-// 	}
-
-// }};
-
-
-
